@@ -1,10 +1,11 @@
 {
   "name": "shd-template-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自动下载模板\r 自动安装依赖\r 自动启动本地服务",
   "main": "index.js",
   "bin": {
-    "shd": "./bin/shd.js"
+    "shd": "./bin/shd.js",
+    "query": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +28,7 @@
     "download-git-repo": "^3.0.2",
     "figlet": "^1.5.0",
     "handlebars": "^4.7.7",
+    "inquirer": "^8.1.2",
     "open": "^8.2.1",
     "ora": "^5.4.1"
   }
